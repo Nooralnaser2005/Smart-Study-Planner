@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Smart <span>Study</span> Planner</h1>
+    <h2>Stay organized · Study smarter</h2>
+    <div class="card">
+        <form action="">
+            <label for="task">New Task</label>
+            <input type="text" name="task" placeholder="What do you need to study?">
+            <div class="select">
+
+                <select name="sub" id="sub">
+                    <option value="math">Math</option>
+                    <option value="computer">Computer</option>
+                    <option value="english">English</option>
+                    <option value="art">Art</option>
+                    <option value="other">Other</option>
+                </select>
+                <select name="level" id="level">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+                <select name="time" id="time">
+                    <option value="30 min">30 min</option>
+                    <option value="60 min">60 min</option>
+                    <option value="90 min">90 min</option>
+                </select>
+
+            </div>
+
+            <button type="submit" id="add">+ Add Task</button>
+
+        </form>
+    </div>
+    <div class="progress">
+        <p>Your progress</p>
+        <div class="rowMain">
+            <div class="row">
+                <div class="fill"></div>
+            </div>
+            <p><span class="num1">0</span>\<span class="num2">0</span></p>
+        </div>
+    </div>
+    <div class="tasks"></div>
+
+
+
+
+
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
